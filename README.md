@@ -8,7 +8,7 @@ Single self-contained file (`index.html`): plain HTML, CSS and JavaScript, no bu
 
 - Numbered list on the left; the active item expands with its description and link, and a vertical progress bar fills beside it.
 - The media panel on the right slides vertically to the matching visual.
-- Autoplays every 6 s while the section is on screen, pauses on hover/focus, and stops once the visitor clicks an item.
+- Loops continuously every 6 s while the section is on screen: after the last item it keeps sliding down to the first. Pauses on hover/focus; clicking an item jumps to it and the loop carries on from there.
 - Keyboard navigation (arrow keys, Home/End) and `prefers-reduced-motion` support.
 - Below 900 px it becomes an accordion with the visual inside the open item.
 
